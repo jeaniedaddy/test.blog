@@ -5,7 +5,7 @@ import PostList from './PostsList'
 class App extends React.Component {
     render(){
         return(
-            <div>
+            <div className="ui container">
                 <PostList/>
             </div>
         );
